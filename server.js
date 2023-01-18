@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 })
 
 // DB config.
-const connection_URI = "your mongo connection key"
+const connection_URI = "mongodb+srv://abdullah:abdullah@cluster0.hdwk488.mongodb.net/Tiktok?retryWrites=true&w=majority"
 mongoose.connect(connection_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
